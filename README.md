@@ -7,8 +7,10 @@
 # Installation
 
 ```
+Pkg.update()
+Pkg.checkout("JSON")
 Pkg.checkout("JSON","kf/customfloat")
-Pkg.clone("github.com/JuliaComputing/QBO.jl")
+Pkg.clone("https://github.com/JuliaComputing/QBO.jl")
 ```
 
 Pull requests are welcome. However, feature development and maintenance is done on an
